@@ -192,10 +192,12 @@ input[type='range']{
 /*pseodo elements*/
 
 
-.player-body:-webkit-scrollbar{
+.player-body::-webkit-scrollbar{
     width:5px;
+    background:rgb(91, 82, 97)
+
 }
-.player-body:-webkit-scrollbar-thumb{
+.player-body::-webkit-scrollbar-thumb{
     width:5px;
     background-color:black;
     border-radius:10px;
